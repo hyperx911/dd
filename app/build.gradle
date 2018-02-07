@@ -146,7 +146,7 @@ android {
         }
 
         debug {
-            if (keyProperties['HYPERTRACK_PUBLISHABLE_KEY'] == "\"YOUR_HYPERTRACK_PUBLISHABLE_KEY\"") {
+            if (keyProperties['pk_test_48e9fd80dbf5bde1190dea8cdf0c6a854a7fd2f5'] == "\"YOUR_HYPERTRACK_PUBLISHABLE_KEY\"") {
                 throw new GradleException("Publishable Key is Missing in key.properties file.\nRefer Step 2 at https://github.com/hypertrack/hypertrack-live-android#to-use-this-app for more info.");
                 return;
             }
